@@ -1,5 +1,4 @@
 import React from 'react';
-import {type} from "os";
 
 const TodoList = () => {
     return (<div className={"TodoList"}>
@@ -10,7 +9,7 @@ const TodoList = () => {
         </div>
         <ul>
             <li><input type="checkbox" checked={true}/> <span>HTML&CSS</span></li>
-            <li><input type="checkbox" checked={true}/> <span>JS</span></li>
+            <li><input type="checkbox" checked={true}/> <span>JSx</span></li>
             <li><input type="checkbox" checked={false}/> <span>React</span></li>
         </ul>
         <div>
