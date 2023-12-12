@@ -1,14 +1,21 @@
 .App {
     padding: 30px;
     display: flex;
+    background: lemonchiffon;
 }
 
 .App > div {
     margin-right: 50px;
+    background: darkgrey;
+
 }
 
 .TodoList {
     border: 2px solid crimson;
     padding: 20px;
     border-radius: 20px;
+}
+li{
+    list-style-type: none;
+
 }
